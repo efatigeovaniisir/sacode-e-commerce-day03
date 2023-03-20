@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style>
+        /*penerapan menggunakan universal selector*/
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+            color: blueviolet;
+        }
+        p{
+            color: rgb(146, 9, 119);
+        }
+        .bg-kuning{
+            background-color: rgb(219, 219, 5);
+        }
+        .bg-biru{
+            background-color: rgb(238, 182, 182);
+        }
+        #margin{
+            margin: 20px;
+        }
+        #padding{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Internal CSS</h1>
+    <a href="inde.html">Kembali ke Index</a>
+
+    <hr>
+    <!-- color -->
+
+    <div>
+        <h1>Color</h1>
+        <p>Menambah color dengan cara Internal CSS</p>
+    </div>
+
+    <!-- bacground -->
+    <div class="bg-kuning">
+        <h1>Bacground</h1>
+        <p>Menambahkan bacground dengan cara I CSS</p>
+    </div>
+
+    <!-- border -->
+    <div class="bg-biru">
+        <h1>Border</h1>
+        <p>Menambahkan border dengan cara Internal CSS </p>
+    </div>
+
+    <!-- margin -->
+    <div id="margin" class="bg-kuning">
+        <h1>Penerapan Margin</h1>
+        <p>Menambahkan margin dengan cara Internal CSS</p>
+    </div>
+
+    <!-- padding -->
+    <div id="padding" class="bg-kuning">
+        <h1>Penerapan Padding</h1>
+        <p>Menambahkan Padding dengan cara Internal CSS</p>
+    </div>
+</body>
+
+</html>

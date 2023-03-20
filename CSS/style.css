@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(14, 109, 14);
+}
+p{
+    color: #1663e9;
+}
+.bg-hitam{
+    background-color: aqua;
+}
+.bg-biru{
+    background-color: blanchedalmond;
+}
+#border{
+    border-style: solid;
+    border-color: rgb(126, 22, 22);
+    border: 10px;
+}
+#margin{
+    margin: 20px;
+    
+}
+#padding{
+    padding: 20px;
+}
